@@ -1,0 +1,598 @@
+/* GENERAL FORMATTING */
+
+body{
+  background-color: whitesmoke;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 100;
+  color:darkslateblue;
+  margin:0;
+  padding:0;
+}
+
+.all-reviews {
+  margin-top: 5px;
+  border-style: hidden;
+  background-color: transparent;
+  text-align: center;
+}
+
+.body-div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.side-by-side {
+  width: 20%;
+  margin: 5px;
+}
+
+.side-by-side-middle {
+  width: 50%;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.side-headers {
+  color: darkslateblue;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+
+p{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 {
+  margin: 5px;
+  color: darkslateblue;
+}
+
+h4 {
+  margin: 5px;
+  font-weight: lighter;
+}
+
+.subheader {
+  text-align: center;
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+
+
+/* END GENERAL FORMATTING */
+
+
+/* HEADER FORMAT */
+
+
+header {
+  color:darkslateblue;
+  margin: 0;
+  padding:0;
+  background-color: rgb(226, 226, 226);
+}
+
+header h1 {
+  text-shadow: 1px 1px 1px rgb(145, 145, 145);
+  font-weight:100;
+  font-size: 35px;
+  text-align: center;
+}
+
+.title {
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 10px;
+}
+
+header h4 {
+  /* width: 800px; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header li {
+  margin: 0;
+  padding: 0;
+}
+
+.headerTitle {
+  font-weight: 100;
+}
+
+header a {
+  border-radius: 2em;
+  padding: 4px;
+  border-color: snow;
+  border-style: groove;
+}
+
+header h2 {
+  margin-left: 10px;
+  font-weight:100;
+  font-size: 16px;
+}
+
+.header-text {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.log-in {
+  text-align: center;
+}
+
+.headerText {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+header nav ul {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+/* END HEADER FORMAT */
+
+
+/* BEGIN TABLE FORMAT */
+
+table {
+  border-spacing: 0;
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+}
+
+/* END TABLE FORMAT */
+
+
+/* CATALOG FORMATTING */
+
+.tile img {
+  width: 100%;
+  /* box-shadow code source: https://www.w3schools.com/css/css3_shadows_box.asp */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gallery ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  list-style: none;
+  padding: 0;
+}
+
+ul {
+  padding:0;
+}
+
+.tile {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  width: 27%;
+}
+
+.intro-text {
+  background-color: rgb(226, 226, 226);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.intro-text h2 {
+  text-shadow: 1px 1px 1px rgb(145, 145, 145);
+}
+
+.review-box {
+  background-color: rgb(226, 226, 226);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.tile-left, .tile-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.tile-header a{
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+
+.rating {
+  margin-left: 5px;
+}
+
+/* END CATALOG FORMATTING */
+
+/* LOGIN FORMAT */
+
+.login .group_label_input{
+  display: flex;
+  flex-direction: column;
+}
+
+.align-right {
+  margin-top: 10px;
+  display: flex;
+  justify-content:flex-end;
+}
+
+/* END LOGIN FORMAT */
+
+/* BEGIN TAGS FORMAT */
+
+.log-in-tags {
+  width: 100%;
+  text-align: left;
+  margin-left: 4px;
+}
+
+.log-in-tags a {
+  text-align: right;
+}
+
+.add-tag {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.add-existing-tag {
+
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.add-new-tag {
+  width:30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.tag-name, button {
+  background-color: rgb(226, 226, 226);
+  display:inline-block;
+  border-color:#7f78af;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 15px;
+  margin-top: 2px;
+}
+
+.tag-name a {
+  text-decoration: none;
+}
+
+.delete-tag {
+  border-style: none;
+  background-color: rgb(226, 226, 226);
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.submit-tag-button, .submit-button-edit {
+  margin-top: 5px;
+  justify-content: right;
+  text-align: right;
+}
+
+/* END TAGS FORMAT */
+
+
+/* BEGIN FORM FORMAT */
+
+textarea {
+  resize: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-label {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0px 20px 0px;
+}
+
+.input-area {
+  width: 96%;
+  margin-left: 1%;
+  margin-right: 3%;
+
+}
+
+.review-side .input-area {
+  width: 100%;
+}
+
+input {
+  height: 2em;
+}
+
+.feedback {
+  list-style-type: none;
+  color:darkslateblue;
+  font-size: 14px;
+  padding: 0px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+textarea {
+  height: 8em;
+}
+
+label{
+  margin-right: 10px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.formFeedback {
+  color:darkslateblue;
+  text-align: right;
+  font-size: 14px;
+  padding: 0px;
+  font-style: italic;
+}
+
+.inserted-text {
+  font-size: 25px;
+  text-align: center;
+}
+
+header a{
+  font-size: 20px;
+  color:darkslateblue;
+  text-decoration: none;
+}
+
+.error {
+  text-align: center;
+  font-size: larger;
+}
+
+/* END ACTIVITY FORM FORMAT */
+
+/* BEGIN SEARCH//FILTER FORMAT */
+
+.sort-options{
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  font-size: 12pt;
+  padding: 4px;
+}
+
+.sort-options a {
+  margin: 2px;
+  text-align: center;
+}
+
+.search-label {
+  font-size: 14;
+}
+
+
+/* END SEARCH/SORT/FILTER FORMAT */
+
+
+/* BEGIN REVIEW PAGE FORMAT */
+
+.review {
+  text-align: left;
+  margin: 5px;
+}
+
+.side-by-side-single {
+  text-align: center;
+}
+
+.review-side {
+  text-align: center;
+  margin: 10px;
+}
+
+.review-page-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  /* box-shadow code source: https://www.w3schools.com/css/css3_shadows_box.asp */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.review-view {
+  text-align: center;
+  width: 33%;
+}
+
+.cite {
+  margin-top: 10px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 10px;
+  text-align: center;
+}
+
+.review-text {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.review-artist{
+  font-size: 20px;
+  text-align: center;
+}
+
+.review-title {
+  font-size: 30px;
+  text-align: center;
+}
+
+.review-button {
+  color:darkmagenta;
+  text-decoration: underline;
+}
+
+.reviewFeedback, .searchFeedback {
+  color:darkslateblue;
+  text-align: right;
+  font-size: 14px;
+  padding: 0px;
+  font-style: italic;
+}
+
+.editFeedback {
+  color:darkmagenta;
+  text-align: left;
+  font-size: 14px;
+  padding: 0px;
+  font-style: italic;
+}
+
+
+.deleted-review {
+  text-align: center;
+}
+
+
+/* END REVIEW PAGE FORMAT */
+
+/* REVIEW PAGE FORM FORMAT */
+
+
+.edit-delete {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  display: inline;
+}
+
+.input-area-review textarea {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.label-edit {
+  text-align: left;
+}
+
+.submit-button {
+  justify-content: right;
+  text-align: right;
+}
+.submit-button-edit {
+  justify-content: right;
+  text-align: right;
+}
+
+.back-to-gallery {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* END REVIEW PAGE FORM FORMAT */
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 500px){
+
+  .tag-names {
+    display:flex;
+    flex-direction: column;
+    width:fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .body-div{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .side-by-side-middle {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .side-by-side {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+
+  .search-div, .login, .log-in-tags, .log-in{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+}
+
+@media (max-width: 899px) {
+
+  .tile {
+    width:95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+@media (min-width: 900px) and (max-width: 1284px){
+
+
+  .tile{
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* END RESPONSIVE */

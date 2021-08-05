@@ -1,0 +1,280 @@
+/* GENERAL FORMATTING */
+
+body{
+  background-color: whitesmoke;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 100;
+  color:darkslateblue;
+}
+
+.body-div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.side-by-side {
+  width: 20%;
+}
+
+.side-by-side-middle {
+  width: 50%;
+  border-right-color:#7f78af;
+  border-right-width: 2px;
+  border-right-style: solid;
+  border-left-color:#7f78af;
+  border-left-width: 2px;
+  border-left-style: solid;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+  /* margin: 30px;
+  margin-left: auto;
+  margin-left: auto; */
+}
+
+
+header {
+  color:darkmagenta;
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  background-color: rgb(226, 226, 226);
+}
+
+.headerTitle {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 100;
+}
+
+header h1 {
+  margin: 0;
+  font-weight:100;
+  font-size: 35px;
+}
+
+header a {
+  border-radius: 2em;
+  padding: 4px;
+  border-color: snow;
+  border-style: groove;
+}
+
+header h2 {
+  margin-left: 10px;
+  font-weight:100;
+  font-size: 16px;
+}
+
+p{
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 40em; */
+}
+
+header h4 {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.current_page {
+  margin: 0;
+  padding: 0;
+}
+
+/* END GENERAL FORMATTING */
+
+
+/* HEADER FORMAT */
+
+h1 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.headerText {
+  margin: 10px;
+  padding: 10px;
+}
+
+/* END HEADER FORMAT */
+
+
+
+/* BEGIN TABLE FORMAT */
+
+table {
+  border-spacing: 0;
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+}
+
+/* END TABLE FORMAT */
+
+ul {
+  padding:0;
+}
+
+.tile {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgb(226, 226, 226);
+  border-color:#cecece;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.tile-left, .tile-right {
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  margin: 5px;
+  color: darkmagenta;
+  /* font-weight: lighter; */
+}
+
+h4 {
+  margin: 5px;
+  font-weight: lighter;
+}
+
+.subheader {
+  text-align: center;
+  font-size: 14px;
+}
+
+.rating {
+  margin-left: 5px;
+}
+
+.review {
+  text-align: left;
+  margin: 5px;
+}
+
+
+/* BEGIN FORM FORMAT */
+
+textarea {
+  resize: none;
+}
+
+.submit-button {
+  text-align: right;
+  margin-right: 10px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#submit-button{
+  color:darkmagenta;
+  background-color: rgb(226, 226, 226);
+  border-radius: 2em;
+  padding: 4px;
+  border-color: snow;
+  border-style: groove;
+  font-family: "Courier New", Courier, monospace;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-label {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0px 20px 0px;
+}
+
+.input-area {
+  width: 15em;
+  margin-left: 4px;
+}
+
+input {
+  height: 2em;
+}
+
+textarea {
+  height: 8em;
+}
+
+label{
+  width: 20%;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.formFeedback {
+  color:darkmagenta;
+  text-align: right;
+  font-size: 14px;
+  padding: 0px;
+  font-style: italic;
+}
+
+.inserted-text {
+  font-size: 25px;
+  text-align: center;
+}
+
+.current_page {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.current_page a{
+  font-size: 20px;
+  color:darkslateblue;
+  text-decoration: none;
+}
+
+.error {
+  text-align: center;
+  font-size: larger;
+}
+
+/* END ACTIVITY FORM FORMAT */
+
+/* BEGIN SEARCH/SORT FORMAT */
+
+.sort-options{
+  font-size: 12pt;
+  border-radius: 2em;
+  padding: 4px;
+  border-color: snow;
+  border-style: groove;
+}
+
+button{
+  color:darkmagenta;
+  background-color: rgb(226, 226, 226);
+  border-radius: 2em;
+  padding: 4px;
+  border-color: snow;
+  border-style: groove;
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  width: auto;
+}
+
+.search-button{
+  margin: 0;
+  padding: 0;
+}
+
+/* END SEARCH/SORT FORMAT */
